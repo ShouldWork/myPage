@@ -1,0 +1,37 @@
+.main-body {
+	padding: 2em;
+	background-color: gray;
+}
+.smallBox {
+	border-radius: 2px;
+	background-color: ghostWhite; 
+/*	text-align: center;
+*/	padding: 5px;
+	box-shadow: gray 1px 2px 10px 0;
+	position: relative;
+	top: 0;
+	transition: all .5s ease-in-out; 
+}
+
+.smallBox:hover{
+	top: -10px;
+}
+
+.smallBox input{
+	color: black;
+}
+
+.highlightedList {
+	background-color: lightYellow;
+	border: 4px;
+	box-shadow: red 2px 5px 10px 0;
+}
+
+ul {
+	list-style: none;
+}
+
+[class^='list_item']{
+	padding: 1em;
+	font-size: 1.5em;
+}
